@@ -17,18 +17,18 @@ const BottomRight = ({ toggle, setToggle }) => {
   };
   return (
     <>
-      <nav class="navbar navbar-expand-lg  ">
+      <nav class="navbar navbar-expand-lg ">
         <i class="fa-solid fa-bars icons" onClick={handleClick}></i>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon">
+            {" "}
+            <i class="fa-solid fa-bars icons"></i>
+          </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav top-heading d-flex flex-row-reverse ">
@@ -49,7 +49,7 @@ const BottomRight = ({ toggle, setToggle }) => {
         </div>
       </nav>
 
-      <div className="container-fluid ml-4 primary-container">
+      <div className="container-fluid ml-4 primary-container ">
         <h5 className="icon-text">DASHBOARD</h5>
         <div className="row d-flex justify-content-center">
           <div className="col-sm-12">
