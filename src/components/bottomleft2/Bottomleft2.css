@@ -1,0 +1,79 @@
+.master {
+  width: 14rem;
+}
+
+.Bottom-Left ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  transition: 0.4s;
+}
+.Bottom-Left ul li:hover a {
+  padding-left: 20px;
+}
+.Bottom-Left ul a i {
+  margin-right: 16px;
+}
+.icons {
+  color: aquamarine;
+}
+.icon-text {
+  color: aquamarine;
+  font-size: 14px;
+}
+.list-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  /* justify-content: center; */
+}
+.list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.exch {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown {
+  /* background: radial-gradient(#12373d, #121923); */
+  background: none;
+  background-color: transparent;
+  background-clip: content-box;
+
+  padding: 0;
+  padding-right: 10px;
+
+  border: none;
+}
+
+.acc-btn {
+  background-color: transparent !important;
+}
+.accordion-item {
+  background-color: transparent;
+  border: none;
+}
+.Lists {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+.card1 {
+  width: 100%;
+  background: transparent;
+  border: 1px solid rgb(43, 88, 73);
+  margin-bottom: 2rem;
+}
+
+.social-details {
+  display: flex;
+  gap: 1rem;
+  border: none;
+}
