@@ -49,7 +49,7 @@ const BottomRight = ({ toggle, setToggle }) => {
         </div>
       </nav>
 
-      <div className="container-fluid ml-4 primary-container ">
+      <div className="container-fluid primary-container ">
         <h5 className="icon-text">DASHBOARD</h5>
         <div className="row d-flex justify-content-center">
           <div className="col-sm-12">
@@ -84,7 +84,7 @@ const BottomRight = ({ toggle, setToggle }) => {
             </div>
           </div>
         </div>
-        <div className="row ">
+        <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-around">
             <div className="card card1">
               <div className="card-body d-flex justify-content-between ">

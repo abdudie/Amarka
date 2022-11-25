@@ -43,6 +43,10 @@
 }
 .bottom-left {
   height: 100%;
-  position: relative;
+
   border-right: 1px solid rgb(38, 87, 71);
+}
+.bottom-right {
+  height: 100%;
+  width: 90%;
 }

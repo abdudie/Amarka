@@ -3,6 +3,7 @@
 }
 .master {
   width: 14rem;
+  height: 100%;
 }
 
 .Bottom-Left ul a {
@@ -71,6 +72,7 @@
 }
 .card1 {
   width: 100%;
+
   background: transparent;
   border: 1px solid rgb(43, 88, 73);
   margin-bottom: 2rem;
