@@ -1,3 +1,6 @@
+* {
+  font-family: NexaLight;
+}
 .master {
   width: 14rem;
 }
@@ -20,6 +23,7 @@
 .icon-text {
   color: aquamarine;
   font-size: 14px;
+  font-family: NexaBlack;
 }
 .list-item {
   display: flex;
