@@ -13,17 +13,19 @@ const App = () => {
         {/* <div className="top-Left">
           <Navbar />
         </div> */}
-        <div className="main-container ">
-          {toggle ? (
-            <div className="bottom-left ">
-              <BottomLeft2 />
-            </div>
-          ) : (
-            ""
-          )}
+        <div className="row">
+          <div className="main-container col-lg-6 col-sm-3">
+            {toggle ? (
+              <div className="bottom-left ">
+                <BottomLeft2 />
+              </div>
+            ) : (
+              ""
+            )}
 
-          <div className="bottom-right ">
-            <BottomRight toggle={toggle} setToggle={setToggle} />
+            <div className="bottom-right ">
+              <BottomRight toggle={toggle} setToggle={setToggle} />
+            </div>
           </div>
         </div>
         <div className="footer">
