@@ -19,11 +19,9 @@
 .sound-card {
   position: relative;
 }
-/* .sound-card > div > img {
-  position: absolute;
-  top: -20px;
-  left: 122vh;
-} */
+.sound-card > div > img {
+  margin: -30px;
+}
 .card3 {
   background: linear-gradient(
     270deg,
