@@ -14,7 +14,7 @@ const App = () => {
           <Navbar />
         </div> */}
         <div className="row">
-          <div className="main-container col-lg-6 col-sm-3">
+          <div className="main-container col-lg-12 col-sm-3">
             {toggle ? (
               <div className="bottom-left ">
                 <BottomLeft2 />

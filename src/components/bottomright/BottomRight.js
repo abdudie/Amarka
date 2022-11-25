@@ -144,7 +144,7 @@ const BottomRight = ({ toggle, setToggle }) => {
                     <p className="p">A Simple Buy-Hold Earn System</p>
                   </div>
                   <div className="right-part">
-                    <img src={sound}></img>
+                    <img src={sound} style={{ width: "120%" }}></img>
                   </div>
                 </div>
               </div>
