@@ -18,7 +18,7 @@ const BottomLeft2 = () => {
         </div>
 
         <div className="container">
-          <ul className="list">
+          <ul className="list mt-2">
             <li className="list-item">
               <a>
                 <i class="fa-solid fa-house icons"></i>
